@@ -10,5 +10,10 @@ public class Point3DTest {
 
         point3D = new Point3D(1.2f, 2.4f, 5.3f);
         System.out.println(point3D);
+
+        float[] arr = point3D.getXYZ();
+        for (int i =0 ; i < arr.length; i++){
+            System.out.println(arr[i]);
+        }
     }
 }

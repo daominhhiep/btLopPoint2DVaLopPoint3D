@@ -26,7 +26,7 @@ public class Point3D extends Point2D {
         this.z = z;
     }
 
-    public void setXY(float x, float y) {
+    public void setXYZ() {
         super.getX();
         super.getY();
         this.z = z;
